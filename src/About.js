@@ -13,7 +13,7 @@ const About = () => {
           <img
             className="perfil"
             src={
-              'https://stackblitz.com/files/react-osu5rj/github/tomascoria/TP10-Tomi/perfil.jpg'
+              'https://stackblitz.com/files/react-osu5rj/github/tomascoria/TP10-Tomi/master/perfil.jpg'
             }
           />
           <p>
