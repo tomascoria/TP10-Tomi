@@ -11,7 +11,7 @@ body {
 
 nav {
   overflow: hidden;
-  background: #d395fd;
+  background: #3777FF;
   /* background: linear-gradient(to right, rgb(221, 72, 72), rgb(216, 24, 216));
  */
 }
@@ -98,7 +98,7 @@ h1 {
   width: 150px;
   height: 50px;
   border: none;
-  background: #d395fd;
+  background: #3777FF;
   /*background: linear-gradient(to right, rgb(221, 72, 72), rgb(216, 24, 216));*/
   border-radius: 15px;
   margin-top: 10px;
@@ -110,7 +110,7 @@ h1 {
 }
 
 .btn:hover {
-  background: #bc74ec;
+  background: #0d51e4;
   transform: scale(1.05);
 }
 

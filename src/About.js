@@ -29,11 +29,11 @@ const About = () => {
             flexibilidad, creatividad y trabajo en equipo son necesarias para
             las características del contexto actual.
           </p>
-        </div>
-        <div className="btn">
+          <div className="btn">
           <Link to="/proyectos">
             <p style={{ textDecoration: 'none' }}>Ver proyectos</p>
           </Link>
+        </div>
         </div>
       </center>
     </div>
