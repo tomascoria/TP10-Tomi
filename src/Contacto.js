@@ -27,6 +27,7 @@ const Contacto = () => {
   return (
     <div>
       <center>
+      <div className = "contacto">
         <h1>Contacto</h1>
         <form className="row" onSubmit={enviarDatos}>
           <div className="col-md-3">
@@ -55,7 +56,7 @@ const Contacto = () => {
               name="mensje"
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn">
             Enviar
           </button>
         </form>
@@ -63,6 +64,7 @@ const Contacto = () => {
           <li>{datos.nombre}</li>
           <li>{datos.mail}</li>
         </ul>
+        </div>
       </center>
     </div>
   );

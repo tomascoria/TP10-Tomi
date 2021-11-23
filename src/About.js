@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from './NavBar';
 import './style.css';
-import perfil from './perfil.jpg';
 
 const About = () => {
   return (
@@ -14,27 +13,19 @@ const About = () => {
           <img
             className="perfil"
             src={
-              perfil
+              'https://stackblitz.com/files/react-osu5rj/github/tomascoria/TP10-Tomi/master/perfil.jpg'
             }
           />
           <p>
-            Estoy cursando el último año del nivel secundario con orientación en
-            Informática en Ort. <br />
-            Soy emprendedora social, participo en proyectos creando herramientas
-            para la inclusión social y escolar de personas con discapacidad.{' '}
+            Actualmente estoy cursando el ultimo año de la escuela ORT en la orientacion informatica <br />
+            En este momento me encuentro desarrollando un proyecto en el cual se basa en streaming de peliculas, lo llamativo de este proyecto es que podras ver peliculas con tu grupo de amigos en vivo. La pagina web se encuentra en desarrollo.
             <br />
-            Soy mentora en una organización que tiene como fin achicar la brecha
-            de género en el ambiente tecnológico brindando talleres y charlas a
-            jóvenes.
-            <br /> Considero que desarrollar aptitudes como la comunicación,
-            flexibilidad, creatividad y trabajo en equipo son necesarias para
-            las características del contexto actual.
           </p>
           <div className="btn">
-            <Link to="/proyectos">
-              <p style={{ textDecoration: 'none' }}>Ver proyectos</p>
-            </Link>
-          </div>
+          <Link to="/proyectos">
+            <p style={{ textDecoration: 'none' }}>Ver proyectos</p>
+          </Link>
+        </div>
         </div>
       </center>
     </div>
