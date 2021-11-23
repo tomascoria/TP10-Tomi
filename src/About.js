@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from './NavBar';
 import './style.css';
+import perfil from './perfil.jpg';
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
           <img
             className="perfil"
             src={
-              'https://stackblitz.com/files/react-phgqov/github/guadi-torino/TP10/master/foto.png'
+              perfil
             }
           />
           <p>
@@ -30,10 +31,10 @@ const About = () => {
             las características del contexto actual.
           </p>
           <div className="btn">
-          <Link to="/proyectos">
-            <p style={{ textDecoration: 'none' }}>Ver proyectos</p>
-          </Link>
-        </div>
+            <Link to="/proyectos">
+              <p style={{ textDecoration: 'none' }}>Ver proyectos</p>
+            </Link>
+          </div>
         </div>
       </center>
     </div>
